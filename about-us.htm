@@ -240,60 +240,60 @@
         
             <div class="info">
                 <div>
-                    <h2>[2]&nbsp;<abbr title="think\exception\ErrorException">ErrorException</abbr> in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\9c029556f6694f7b152d99a9b8556a1a.php line 308">9c029556f6694f7b152d99a9b8556a1a.php line 308</a></h2>
+                    <h2>[2]&nbsp;<abbr title="think\exception\ErrorException">ErrorException</abbr> in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\786d9144aa0cf58f2d5520bbbd522d3b.php line 289">786d9144aa0cf58f2d5520bbbd522d3b.php line 289</a></h2>
                 </div>
                 <div><h1>count(): Parameter must be an array or an object that implements Countable</h1></div>
             </div>
         
     </div>
 	        <div class="source-code">
-            <pre class="prettyprint lang-php"><ol start="299"><li class="line-299"><code>                                            &lt;p&gt;
-</code></li><li class="line-300"><code>                        &lt;?php if(is_array($menu_list) || $menu_list instanceof \think\Collection || $menu_list instanceof \think\Paginator): $i = 0; $__LIST__ = $menu_list;if( count($__LIST__)==0 ) : echo &quot;&quot; ;else: foreach($__LIST__ as $key=&gt;$item): $mod = ($i % 2 );++$i;?&gt;
-</code></li><li class="line-301"><code>                        &lt;a href=&quot;&lt;?php echo $item['url']; ?&gt;&quot;&gt;&lt;?php echo $item['name']; ?&gt;&lt;/a&gt; |
-</code></li><li class="line-302"><code>                        &lt;?php endforeach; endif; else: echo &quot;&quot; ;endif; ?&gt;
-</code></li><li class="line-303"><code>                        &lt;a href=&quot;/about-us.htm&quot;&gt;关于我们&lt;/a&gt; |
-</code></li><li class="line-304"><code>                        &lt;a href=&quot;/disclaimer.htm&quot;&gt;免责申明&lt;/a&gt; |
-</code></li><li class="line-305"><code>                        &lt;a href=&quot;/privacy.htm&quot;&gt;隐私申明&lt;/a&gt; |
-</code></li><li class="line-306"><code>                        &lt;a href=&quot;/sitemap.xml&quot;&gt;网站地图&lt;/a&gt;
-</code></li><li class="line-307"><code>                    &lt;/p&gt;
-</code></li><li class="line-308"><code>                    &lt;?php if(count($site_config['friendship_links_rows']) &gt; 0): ?&gt;
-</code></li><li class="line-309"><code>                    &lt;p&gt;
-</code></li><li class="line-310"><code>                        &lt;b&gt;友情链接：&lt;/b&gt;
-</code></li><li class="line-311"><code>                        &lt;?php if(is_array($site_config['friendship_links_rows']) || $site_config['friendship_links_rows'] instanceof \think\Collection || $site_config['friendship_links_rows'] instanceof \think\Paginator): $i = 0; $__LIST__ = $site_config['friendship_links_rows'];if( count($__LIST__)==0 ) : echo &quot;&quot; ;else: foreach($__LIST__ as $key=&gt;$item): $mod = ($i % 2 );++$i;?&gt;
-</code></li><li class="line-312"><code>                        &lt;a href=&quot;&lt;?php echo $item['url']; ?&gt;&quot; target=&quot;_blank&quot; title=&quot;&lt;?php echo $item['name']; ?&gt;&quot;&gt;&lt;?php echo $item['name']; ?&gt;&lt;/a&gt;
-</code></li><li class="line-313"><code>                        &lt;?php endforeach; endif; else: echo &quot;&quot; ;endif; ?&gt;
-</code></li><li class="line-314"><code>                    &lt;/p&gt;
-</code></li><li class="line-315"><code>                    &lt;?php endif; ?&gt;
-</code></li><li class="line-316"><code>                        &lt;p&gt;
-</code></li><li class="line-317"><code>                            &lt;a href=&quot;/&quot;&gt;&lt;?php echo $site_config['name']; ?&gt;&lt;/a&gt; 版权所有
+            <pre class="prettyprint lang-php"><ol start="280"><li class="line-280"><code>                                            &lt;p&gt;
+</code></li><li class="line-281"><code>                        &lt;?php if(is_array($menu_list) || $menu_list instanceof \think\Collection || $menu_list instanceof \think\Paginator): $i = 0; $__LIST__ = $menu_list;if( count($__LIST__)==0 ) : echo &quot;&quot; ;else: foreach($__LIST__ as $key=&gt;$item): $mod = ($i % 2 );++$i;?&gt;
+</code></li><li class="line-282"><code>                        &lt;a href=&quot;&lt;?php echo $item['url']; ?&gt;&quot;&gt;&lt;?php echo $item['name']; ?&gt;&lt;/a&gt; |
+</code></li><li class="line-283"><code>                        &lt;?php endforeach; endif; else: echo &quot;&quot; ;endif; ?&gt;
+</code></li><li class="line-284"><code>                        &lt;a href=&quot;/about-us.htm&quot;&gt;关于我们&lt;/a&gt; |
+</code></li><li class="line-285"><code>                        &lt;a href=&quot;/disclaimer.htm&quot;&gt;免责申明&lt;/a&gt; |
+</code></li><li class="line-286"><code>                        &lt;a href=&quot;/privacy.htm&quot;&gt;隐私申明&lt;/a&gt; |
+</code></li><li class="line-287"><code>                        &lt;a href=&quot;/sitemap.xml&quot;&gt;网站地图&lt;/a&gt;
+</code></li><li class="line-288"><code>                    &lt;/p&gt;
+</code></li><li class="line-289"><code>                    &lt;?php if(count($site_config['friendship_links_rows']) &gt; 0): ?&gt;
+</code></li><li class="line-290"><code>                    &lt;p&gt;
+</code></li><li class="line-291"><code>                        &lt;b&gt;友情链接：&lt;/b&gt;
+</code></li><li class="line-292"><code>                        &lt;?php if(is_array($site_config['friendship_links_rows']) || $site_config['friendship_links_rows'] instanceof \think\Collection || $site_config['friendship_links_rows'] instanceof \think\Paginator): $i = 0; $__LIST__ = $site_config['friendship_links_rows'];if( count($__LIST__)==0 ) : echo &quot;&quot; ;else: foreach($__LIST__ as $key=&gt;$item): $mod = ($i % 2 );++$i;?&gt;
+</code></li><li class="line-293"><code>                        &lt;a href=&quot;&lt;?php echo $item['url']; ?&gt;&quot; target=&quot;_blank&quot; title=&quot;&lt;?php echo $item['name']; ?&gt;&quot;&gt;&lt;?php echo $item['name']; ?&gt;&lt;/a&gt;
+</code></li><li class="line-294"><code>                        &lt;?php endforeach; endif; else: echo &quot;&quot; ;endif; ?&gt;
+</code></li><li class="line-295"><code>                    &lt;/p&gt;
+</code></li><li class="line-296"><code>                    &lt;?php endif; ?&gt;
+</code></li><li class="line-297"><code>                        &lt;p&gt;
+</code></li><li class="line-298"><code>                            &lt;a href=&quot;/&quot;&gt;&lt;?php echo $site_config['name']; ?&gt;&lt;/a&gt; 版权所有
 </code></li></ol></pre>
         </div>
 	        <div class="trace">
             <h2>Call Stack</h2>
             <ol>
-                <li>in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\9c029556f6694f7b152d99a9b8556a1a.php line 308">9c029556f6694f7b152d99a9b8556a1a.php line 308</a></li>
+                <li>in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\786d9144aa0cf58f2d5520bbbd522d3b.php line 289">786d9144aa0cf58f2d5520bbbd522d3b.php line 289</a></li>
                                 <li>
-                at <abbr title="think\Error">Error</abbr>::appError(2, '<a class="toggle" title="count(): Parameter must be an array or an object that implements Countable">count(): Parameter m...</a>', '<a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\9c029556f6694f7b152d99a9b8556a1a.php">E:\SVNRepositories\C...</a>', 308, ['cacheFile' => '<a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\9c029556f6694f7b152d99a9b8556a1a.php">E:\SVNRepositories\C...</a>', 'vars' => ['user' => <em>null</em>, 'site' => ['name' => '我的网站', 'beian' => '', 'cdnurl' => '', ...], 'config' => ['site' => ['name' => '我的网站', 'cdnurl' => '', 'version' => 1758459487, ...], 'upload' => ['cdnurl' => '', 'uploadurl' => '<a class="toggle" title="/index.php/index/ajax/upload">/index.php/index/aja...</a>', 'bucket' => 'local', ...], 'modulename' => 'index', ...], ...], 'user' => <em>null</em>, ...]) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\9c029556f6694f7b152d99a9b8556a1a.php line 308">9c029556f6694f7b152d99a9b8556a1a.php line 308</a>                </li>
+                at <abbr title="think\Error">Error</abbr>::appError(2, '<a class="toggle" title="count(): Parameter must be an array or an object that implements Countable">count(): Parameter m...</a>', '<a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\786d9144aa0cf58f2d5520bbbd522d3b.php">E:\SVNRepositories\C...</a>', 289, ['cacheFile' => '<a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\786d9144aa0cf58f2d5520bbbd522d3b.php">E:\SVNRepositories\C...</a>', 'vars' => ['user' => <em>null</em>, 'site' => ['name' => '我的网站', 'beian' => '', 'cdnurl' => '', ...], 'config' => ['site' => ['name' => '我的网站', 'cdnurl' => '', 'version' => 1758459492, ...], 'upload' => ['cdnurl' => '', 'uploadurl' => '<a class="toggle" title="/index.php/index/ajax/upload">/index.php/index/aja...</a>', 'bucket' => 'local', ...], 'modulename' => 'index', ...], ...], 'user' => <em>null</em>, ...]) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\786d9144aa0cf58f2d5520bbbd522d3b.php line 289">786d9144aa0cf58f2d5520bbbd522d3b.php line 289</a>                </li>
                                 <li>
-                at include('<a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\9c029556f6694f7b152d99a9b8556a1a.php">E:\SVNRepositories\C...</a>') in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\template\driver\File.php line 53">File.php line 53</a>                </li>
+                at include('<a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\786d9144aa0cf58f2d5520bbbd522d3b.php">E:\SVNRepositories\C...</a>') in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\template\driver\File.php line 53">File.php line 53</a>                </li>
                                 <li>
-                at <abbr title="think\template\driver\File">File</abbr>->read('<a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\9c029556f6694f7b152d99a9b8556a1a.php">E:\SVNRepositories\C...</a>', ['user' => <em>null</em>, 'site' => ['name' => '我的网站', 'beian' => '', 'cdnurl' => '', ...], 'config' => ['site' => ['name' => '我的网站', 'cdnurl' => '', 'version' => 1758459487, ...], 'upload' => ['cdnurl' => '', 'uploadurl' => '<a class="toggle" title="/index.php/index/ajax/upload">/index.php/index/aja...</a>', 'bucket' => 'local', ...], 'modulename' => 'index', ...], ...]) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\Template.php line 188">Template.php line 188</a>                </li>
+                at <abbr title="think\template\driver\File">File</abbr>->read('<a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\786d9144aa0cf58f2d5520bbbd522d3b.php">E:\SVNRepositories\C...</a>', ['user' => <em>null</em>, 'site' => ['name' => '我的网站', 'beian' => '', 'cdnurl' => '', ...], 'config' => ['site' => ['name' => '我的网站', 'cdnurl' => '', 'version' => 1758459492, ...], 'upload' => ['cdnurl' => '', 'uploadurl' => '<a class="toggle" title="/index.php/index/ajax/upload">/index.php/index/aja...</a>', 'bucket' => 'local', ...], 'modulename' => 'index', ...], ...]) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\Template.php line 188">Template.php line 188</a>                </li>
                                 <li>
-                at <abbr title="think\Template">Template</abbr>->fetch('<a class="toggle" title="E:\SVNRepositories\ClashGitPages2\public/../application/index\view\freenekoray\index\index.html">E:\SVNRepositories\C...</a>', ['user' => <em>null</em>, 'site' => ['name' => '我的网站', 'beian' => '', 'cdnurl' => '', ...], 'config' => ['site' => ['name' => '我的网站', 'cdnurl' => '', 'version' => 1758459487, ...], 'upload' => ['cdnurl' => '', 'uploadurl' => '<a class="toggle" title="/index.php/index/ajax/upload">/index.php/index/aja...</a>', 'bucket' => 'local', ...], 'modulename' => 'index', ...], ...], []) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\view\driver\Think.php line 86">Think.php line 86</a>                </li>
+                at <abbr title="think\Template">Template</abbr>->fetch('<a class="toggle" title="E:\SVNRepositories\ClashGitPages2\public/../application/index\view\freenekoray\index\about_us.html">E:\SVNRepositories\C...</a>', ['user' => <em>null</em>, 'site' => ['name' => '我的网站', 'beian' => '', 'cdnurl' => '', ...], 'config' => ['site' => ['name' => '我的网站', 'cdnurl' => '', 'version' => 1758459492, ...], 'upload' => ['cdnurl' => '', 'uploadurl' => '<a class="toggle" title="/index.php/index/ajax/upload">/index.php/index/aja...</a>', 'bucket' => 'local', ...], 'modulename' => 'index', ...], ...], []) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\view\driver\Think.php line 86">Think.php line 86</a>                </li>
                                 <li>
-                at <abbr title="think\view\driver\Think">Think</abbr>->fetch('<a class="toggle" title="E:\SVNRepositories\ClashGitPages2\public/../application/index\view\freenekoray\index\index.html">E:\SVNRepositories\C...</a>', ['user' => <em>null</em>, 'site' => ['name' => '我的网站', 'beian' => '', 'cdnurl' => '', ...], 'config' => ['site' => ['name' => '我的网站', 'cdnurl' => '', 'version' => 1758459487, ...], 'upload' => ['cdnurl' => '', 'uploadurl' => '<a class="toggle" title="/index.php/index/ajax/upload">/index.php/index/aja...</a>', 'bucket' => 'local', ...], 'modulename' => 'index', ...], ...], []) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\View.php line 163">View.php line 163</a>                </li>
+                at <abbr title="think\view\driver\Think">Think</abbr>->fetch('<a class="toggle" title="E:\SVNRepositories\ClashGitPages2\public/../application/index\view\freenekoray\index\about_us.html">E:\SVNRepositories\C...</a>', ['user' => <em>null</em>, 'site' => ['name' => '我的网站', 'beian' => '', 'cdnurl' => '', ...], 'config' => ['site' => ['name' => '我的网站', 'cdnurl' => '', 'version' => 1758459492, ...], 'upload' => ['cdnurl' => '', 'uploadurl' => '<a class="toggle" title="/index.php/index/ajax/upload">/index.php/index/aja...</a>', 'bucket' => 'local', ...], 'modulename' => 'index', ...], ...], []) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\View.php line 163">View.php line 163</a>                </li>
                                 <li>
-                at <abbr title="think\View">View</abbr>->fetch('<a class="toggle" title="freenekoray/index/index">freenekoray/index/in...</a>') in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\application\index\controller\Index.php line 83">Index.php line 83</a>                </li>
+                at <abbr title="think\View">View</abbr>->fetch('<a class="toggle" title="freenekoray/index/about_us">freenekoray/index/ab...</a>') in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\application\index\controller\Index.php line 455">Index.php line 455</a>                </li>
                                 <li>
-                at <abbr title="app\index\controller\Index">Index</abbr>->index()                </li>
+                at <abbr title="app\index\controller\Index">Index</abbr>->about_us()                </li>
                                 <li>
                 at <abbr title="ReflectionMethod">ReflectionMethod</abbr>->invokeArgs(<em>object</em>(<abbr title="app\index\controller\Index">Index</abbr>), []) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\App.php line 343">App.php line 343</a>                </li>
                                 <li>
-                at <abbr title="think\App">App</abbr>::invokeMethod([<em>object</em>(<abbr title="app\index\controller\Index">Index</abbr>), 'index'], []) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\App.php line 611">App.php line 611</a>                </li>
+                at <abbr title="think\App">App</abbr>::invokeMethod([<em>object</em>(<abbr title="app\index\controller\Index">Index</abbr>), 'about_us'], []) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\App.php line 611">App.php line 611</a>                </li>
                                 <li>
-                at <abbr title="think\App">App</abbr>::module(['index', 'index', 'index'], ['app_host' => '', 'app_debug' => <em>true</em>, 'app_trace' => <em>false</em>, ...], <em>true</em>) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\App.php line 456">App.php line 456</a>                </li>
+                at <abbr title="think\App">App</abbr>::module(['index', 'index', 'about_us'], ['app_host' => '', 'app_debug' => <em>true</em>, 'app_trace' => <em>false</em>, ...], <em>true</em>) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\App.php line 456">App.php line 456</a>                </li>
                                 <li>
-                at <abbr title="think\App">App</abbr>::exec(['type' => 'module', 'module' => ['index', 'index', 'index']], ['app_host' => '', 'app_debug' => <em>true</em>, 'app_trace' => <em>false</em>, ...]) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\App.php line 139">App.php line 139</a>                </li>
+                at <abbr title="think\App">App</abbr>::exec(['type' => 'module', 'module' => ['index', 'index', 'about_us']], ['app_host' => '', 'app_debug' => <em>true</em>, 'app_trace' => <em>false</em>, ...]) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\App.php line 139">App.php line 139</a>                </li>
                                 <li>
                 at <abbr title="think\App">App</abbr>::run() in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\start.php line 19">start.php line 19</a>                </li>
                                 <li>
@@ -535,7 +535,7 @@
                                 <div class="clearfix">
                     <div class="col-md-3"><strong>REMOTE_PORT</strong></div>
                     <div class="col-md-9"><small>
-                        56928                    </small></div>
+                        56980                    </small></div>
                 </div>
                                 <div class="clearfix">
                     <div class="col-md-3"><strong>REMOTE_ADDR</strong></div>
@@ -570,12 +570,12 @@
                                 <div class="clearfix">
                     <div class="col-md-3"><strong>DOCUMENT_URI</strong></div>
                     <div class="col-md-9"><small>
-                        /index.php/index/index/index                    </small></div>
+                        /index.php/index/index/about_us                    </small></div>
                 </div>
                                 <div class="clearfix">
                     <div class="col-md-3"><strong>REQUEST_URI</strong></div>
                     <div class="col-md-9"><small>
-                        /index.php/index/index/index?website_id=410                    </small></div>
+                        /index.php/index/index/about_us?website_id=410                    </small></div>
                 </div>
                                 <div class="clearfix">
                     <div class="col-md-3"><strong>SCRIPT_NAME</strong></div>
@@ -605,12 +605,12 @@
                                 <div class="clearfix">
                     <div class="col-md-3"><strong>PATH_TRANSLATED</strong></div>
                     <div class="col-md-9"><small>
-                        E:/SVNRepositories/ClashGitPages2/public/index/index/index                    </small></div>
+                        E:/SVNRepositories/ClashGitPages2/public/index/index/about_us                    </small></div>
                 </div>
                                 <div class="clearfix">
                     <div class="col-md-3"><strong>PATH_INFO</strong></div>
                     <div class="col-md-9"><small>
-                        /index/index/index                    </small></div>
+                        /index/index/about_us                    </small></div>
                 </div>
                                 <div class="clearfix">
                     <div class="col-md-3"><strong>SCRIPT_FILENAME</strong></div>
@@ -625,17 +625,17 @@
                                 <div class="clearfix">
                     <div class="col-md-3"><strong>PHP_SELF</strong></div>
                     <div class="col-md-9"><small>
-                        /index.php/index/index/index                    </small></div>
+                        /index.php/index/index/about_us                    </small></div>
                 </div>
                                 <div class="clearfix">
                     <div class="col-md-3"><strong>REQUEST_TIME_FLOAT</strong></div>
                     <div class="col-md-9"><small>
-                        1758459487.8845                    </small></div>
+                        1758459492.7515                    </small></div>
                 </div>
                                 <div class="clearfix">
                     <div class="col-md-3"><strong>REQUEST_TIME</strong></div>
                     <div class="col-md-9"><small>
-                        1758459487                    </small></div>
+                        1758459492                    </small></div>
                 </div>
                             </div>
                     </div>
@@ -661,7 +661,7 @@
                                 <div class="clearfix">
                     <div class="col-md-3"><strong>THINK_START_TIME</strong></div>
                     <div class="col-md-9"><small>
-                        1758459487.8849                    </small></div>
+                        1758459492.7519                    </small></div>
                 </div>
                                 <div class="clearfix">
                     <div class="col-md-3"><strong>THINK_START_MEM</strong></div>
@@ -783,7 +783,7 @@
         <span>{ 十年磨一剑-为API开发设计的高性能框架 }</span>
     </div>
         <script>
-        var LINE = 308;
+        var LINE = 289;
 
         function $(selector, node){
             var elements;
