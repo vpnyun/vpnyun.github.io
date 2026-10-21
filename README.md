@@ -1,4 +1,4 @@
-# 免费VPN节点 | 10月14日20.5M/S|免费Shadowrocket节点/Clash节点/Singbox节点/SSR节点/V2ray节点机场推荐，在线Clash机场梯子购买推荐  更新时间 2026-10-14 10:51:02
+# 免费VPN节点 | 10月21日19.1M/S|免费Shadowrocket节点/Singbox节点/Clash节点/SSR节点/V2ray节点机场推荐，在线Clash机场梯子购买推荐  更新时间 2026-10-21 10:32:17
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://vpnyun.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### 免费Clash节点订阅链接
 
-- https://vpnyun.github.io/uploads/2026/10/0-20261014.yaml
-- https://vpnyun.github.io/uploads/2026/10/1-20261014.yaml
-- https://vpnyun.github.io/uploads/2026/10/2-20261014.yaml
-- https://vpnyun.github.io/uploads/2026/10/3-20261014.yaml
-- https://vpnyun.github.io/uploads/2026/10/4-20261014.yaml
+- https://vpnyun.github.io/uploads/2026/10/0-20261021.yaml
+- https://vpnyun.github.io/uploads/2026/10/1-20261021.yaml
+- https://vpnyun.github.io/uploads/2026/10/2-20261021.yaml
+- https://vpnyun.github.io/uploads/2026/10/3-20261021.yaml
+- https://vpnyun.github.io/uploads/2026/10/4-20261021.yaml
 
 ### 免费V2ray节点订阅链接
 
-- https://vpnyun.github.io/uploads/2026/10/0-20261014.txt
-- https://vpnyun.github.io/uploads/2026/10/1-20261014.txt
-- https://vpnyun.github.io/uploads/2026/10/2-20261014.txt
-- https://vpnyun.github.io/uploads/2026/10/3-20261014.txt
-- https://vpnyun.github.io/uploads/2026/10/4-20261014.txt
+- https://vpnyun.github.io/uploads/2026/10/0-20261021.txt
+- https://vpnyun.github.io/uploads/2026/10/1-20261021.txt
+- https://vpnyun.github.io/uploads/2026/10/2-20261021.txt
+- https://vpnyun.github.io/uploads/2026/10/3-20261021.txt
+- https://vpnyun.github.io/uploads/2026/10/4-20261021.txt
 
 ### 免费Sing-box节点订阅链接
 
-- https://vpnyun.github.io/uploads/2026/10/20261014.json
+- https://vpnyun.github.io/uploads/2026/10/20261021.json
 
 ## 更多Clash节点订阅 ：
 
